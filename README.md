@@ -8,13 +8,13 @@ Small projects I built while learning Arduino. Both run on an Arduino Uno.
 
 A 4-axis robot arm on a 3D-printed/acrylic kit body. Each joint is an SG90/MG90S servo.
 
+I built a few versions depending on the parts I had: two joysticks,
+one joystick with four buttons, and one joystick with two potentiometers.
+The code here is the last one:
+
 - Joystick X and Y move two of the joints.
 - Two potentiometers move the other two.
 - Each analog reading (0-1023) is mapped to a servo angle (0-180°).
-
-I first planned to use two joysticks, but I only had one, so I used two
-potentiometers for the other axes. In another version I tried one joystick
-with four buttons. I adapted the design to the parts I had.
 
 ## Obstacle-avoiding car
 
